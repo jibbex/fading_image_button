@@ -42,12 +42,10 @@ class _FadingImageButtonState extends State<FadingImageButton> {
 
   @override
   Widget build(BuildContext context) {
-    double _width = widget.width != null ? widget.width : 128;
-    double _height = widget.height != null ? widget.height : 128;
-    Duration _duration =
-        widget.duration != null ? widget.duration : Duration(seconds: 250);
-    EdgeInsets _padding =
-        widget.padding != null ? widget.padding : EdgeInsets.all(5);
+    double _width = widget.width ?? 128;
+    double _height = widget.height ?? 128;
+    Duration _duration = widget.duration ?? Duration(seconds: 250);
+    EdgeInsets _padding = widget.padding ?? EdgeInsets.all(5);
 
     return GestureDetector(
       onTapDown: (details) => setState(() => _opacity = 1.0),
