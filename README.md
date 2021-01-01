@@ -28,7 +28,7 @@ Widget build(BuildContext context) {
 | **onPressedImage**  | Overlay image. It is triggered on ``onTapDown`` event.                  |           |
 | width             | Button width.                                                             | *128*     |
 | height            | Button height.                                                            | *128*     |
-| padding           | Padding of the container widget. Therefore actually margin of the button. | *all: 5*  |
+| padding           | Padding of the container widget. Therefore actually margin of the images. | *all: 5*  |
 | duration          | Duration of the fading animation.                                         | *250ms*   |
 
 ***Fat*** *properties are required.*
