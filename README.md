@@ -25,7 +25,7 @@ Widget build(BuildContext context) {
 | ------------------|---------------------------------------------------------------------------|
 | **onPressed**     | Function that is called on ``onTapUp`` event.                             |
 | **image**         | Image of the button.                                                      |
-| **onPressImage**  | Overlay image. It is triggered on ``onTapDown`` event.                    |
+| **onPressedImage**  | Overlay image. It is triggered on ``onTapDown`` event.                    |
 | width             | Button width.                                                             |
 | height            | Button height.                                                            |
 | padding           | Padding of the container widget. Therefore actually margin of the button. |
