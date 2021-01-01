@@ -21,14 +21,14 @@ Widget build(BuildContext context) {
 
 ## Properties
 
-| property          | description
-| ------------------|---------------------------------------------------------------------------|
-| **onPressed**     | Function that is called on ``onTapUp`` event.                             |
-| **image**         | Image of the button.                                                      |
-| **onPressedImage**  | Overlay image. It is triggered on ``onTapDown`` event.                    |
-| width             | Button width.                                                             |
-| height            | Button height.                                                            |
-| padding           | Padding of the container widget. Therefore actually margin of the button. |
-| duration          | Duration of the fading animation.                                         |
+| property          | description                                                               | default   |
+| ------------------|---------------------------------------------------------------------------|-----------|
+| **onPressed**     | Function that is called on ``onTapUp`` event.                             |           |
+| **image**         | Image of the button.                                                      |           |
+| **onPressedImage**  | Overlay image. It is triggered on ``onTapDown`` event.                  |           |
+| width             | Button width.                                                             | *128*     |
+| height            | Button height.                                                            | *128*     |
+| padding           | Padding of the container widget. Therefore actually margin of the button. | *all: 5*  |
+| duration          | Duration of the fading animation.                                         | *300ms*   |
 
 ***Fat*** *properties are required.*
