@@ -1,3 +1,7 @@
+# Changelog
+
+---
+
 ## 0.9.1+0
 
 - The default animation duration now corresponds to the documented value.
