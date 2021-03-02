@@ -44,7 +44,7 @@ class _FadingImageButtonState extends State<FadingImageButton> {
   Widget build(BuildContext context) {
     double _width = widget.width ?? 128;
     double _height = widget.height ?? 128;
-    Duration _duration = widget.duration ?? Duration(seconds: 250);
+    Duration _duration = widget.duration ?? Duration(milliseconds: 250);
     EdgeInsets _padding = widget.padding ?? EdgeInsets.all(5);
 
     return GestureDetector(
