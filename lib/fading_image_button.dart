@@ -4,16 +4,16 @@ class FadingImageButton extends StatefulWidget {
   final Function onPressed;
   final Image image;
   final Image onPressedImage;
-  final double width;
-  final double height;
-  final EdgeInsets padding;
-  final Duration duration;
+  final double? width;
+  final double? height;
+  final EdgeInsets? padding;
+  final Duration? duration;
 
   FadingImageButton({
-    Key key,
-    @required this.onPressed,
-    @required this.image,
-    @required this.onPressedImage,
+    Key? key,
+    required this.onPressed,
+    required this.image,
+    required this.onPressedImage,
     this.width,
     this.height,
     this.padding,
@@ -25,7 +25,7 @@ class FadingImageButton extends StatefulWidget {
 }
 
 class _FadingImageButtonState extends State<FadingImageButton> {
-  double _opacity;
+  late double _opacity;
 
   @override
   void initState() {

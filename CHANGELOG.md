@@ -2,6 +2,10 @@
 
 ---
 
+## 0.10.0+0
+
+- Added null safety
+
 ## 0.9.1+0
 
 - The default animation duration now corresponds to the documented value.
