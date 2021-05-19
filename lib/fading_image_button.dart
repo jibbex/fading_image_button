@@ -1,12 +1,26 @@
 import 'package:flutter/material.dart';
 
+/// Animated Flutter image button widget.
 class FadingImageButton extends StatefulWidget {
+  /// Function that is called on ``onTapUp`` event.
   final Function onPressed;
+
+  /// Image of the button.
   final Image image;
+
+  /// Overlay image. It is triggered on ``onTapDown`` event.
   final Image onPressedImage;
+
+  /// Button width.
   final double? width;
+
+  /// Button height.
   final double? height;
+
+  /// Padding of the container widget. Therefore actually margin of the images.
   final EdgeInsets? padding;
+
+  /// Duration of the fading animation.
   final Duration? duration;
 
   FadingImageButton({
